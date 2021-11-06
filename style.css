@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+}
+
+header{
+    background-image: url('https://images.drive.ru/i/0/5e1849c3ec05c4302e0000ac.jpg');
+    background-size: cover;
+    background-repeat:repeat; 
+    background-position:center;
+    padding: 20px;
+    padding-top:250px;
+    text-align: center;
+    animation-name: slideshow;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+
+
+
+nav{
+	background:#212159;
+	margin: 0;
+	position: sticky;
+	top: 0;
+}
+ul{
+	margin: 0;
+	/*padding: 0;*/
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	background: black;
+	color:blue ;
+	padding: 10px;
+	transition: 0.6s;
+}
+li:hover{
+	background: white;
+
+}
+
+
+footer{
+	background: #11112D;
+	color: white;
+	padding: 20px;
+}
+
+main{
+	width: 90%;
+	margin: 10px 5%;
+}
+div{
+	width: 45%;
+	display: inline-block;
+	margin:20PX;
+}
+
+img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+@keyframes slideshow{
+	0%{
+		background-image: url('https://images.drive.ru/i/0/5e1849c3ec05c4302e0000ac.jpg');
+	}
+	18%{
+		background-image: url('https://images.drive.ru/i/0/5e1849c3ec05c4302e0000ac.jpg');
+	}
+	20%{
+		background-image: url('cls.jpg');
+	}
+	38%{
+		background-image: url('cls.jpg');
+	}
+	40%{
+		background-image: url('salon.jpg');
+	}
+	58%{
+		background-image: url('salon.jpg');
+	}
+	60%{
+		background-image: url('gle.webp');
+	}
+	78%{
+		background-image: url('gle.webp');
+	}
+	80%{
+		background-image: url('gelik.jpg');
+	}
+	98%{
+		background-image: url('gelik.jpg');
+	}
+	100%{
+		background-image: url('https://images.drive.ru/i/0/5e1849c3ec05c4302e0000ac.jpg');
+	}
+}
